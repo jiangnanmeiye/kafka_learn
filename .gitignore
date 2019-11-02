@@ -212,4 +212,5 @@ server.pid
 # Ignore redis binary dump (dump.rdb) files
 
 *.rdb
+zookeeper.out
 
