@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Learning Kafka notes
 
 [![Build Status](https://travis-ci.org/jagatsingh/learnkafka.svg?branch=master)](https://travis-ci.org/jagatsingh/learnkafka)
@@ -104,3 +105,7 @@ Consume the messages using custom Java code
 
 `java -cp ./target/learnkafka-1.0-SNAPSHOT-jar-with-dependencies.jar life.jugnu.learnkafka.ch04.AvroConsumer`
 
+=======
+# kafka_learn
+learn kafka by 《Kafka: The Definitive Guide》
+>>>>>>> f0a464a2fc31a568a1cc128e5206a23dac56806f
