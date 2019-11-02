@@ -1,0 +1,52 @@
+2019-09-04 23:16:50,945 [myid:] - INFO  [main:QuorumPeerConfig@136] - Reading configuration from: /usr/local/softwares/zookeeper/bin/../conf/zoo.cfg
+2019-09-04 23:16:50,953 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2019-09-04 23:16:50,953 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2019-09-04 23:16:50,953 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2019-09-04 23:16:50,954 [myid:] - WARN  [main:QuorumPeerMain@116] - Either no config or no quorum defined in config, running  in standalone mode
+2019-09-04 23:16:50,967 [myid:] - INFO  [main:QuorumPeerConfig@136] - Reading configuration from: /usr/local/softwares/zookeeper/bin/../conf/zoo.cfg
+2019-09-04 23:16:50,967 [myid:] - INFO  [main:ZooKeeperServerMain@98] - Starting server
+2019-09-04 23:16:50,981 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf, built on 03/06/2019 16:18 GMT
+2019-09-04 23:16:50,981 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=tomingdom-pc
+2019-09-04 23:16:50,981 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=1.8.0_11
+2019-09-04 23:16:50,982 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2019-09-04 23:16:50,982 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=/usr/local/share/jdk1.8.0_11/jre
+2019-09-04 23:16:50,982 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=/usr/local/softwares/zookeeper/bin/../zookeeper-server/target/classes:/usr/local/softwares/zookeeper/bin/../build/classes:/usr/local/softwares/zookeeper/bin/../zookeeper-server/target/lib/*.jar:/usr/local/softwares/zookeeper/bin/../build/lib/*.jar:/usr/local/softwares/zookeeper/bin/../lib/slf4j-log4j12-1.7.25.jar:/usr/local/softwares/zookeeper/bin/../lib/slf4j-api-1.7.25.jar:/usr/local/softwares/zookeeper/bin/../lib/netty-3.10.6.Final.jar:/usr/local/softwares/zookeeper/bin/../lib/log4j-1.2.17.jar:/usr/local/softwares/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/local/softwares/zookeeper/bin/../lib/audience-annotations-0.5.0.jar:/usr/local/softwares/zookeeper/bin/../zookeeper-3.4.14.jar:/usr/local/softwares/zookeeper/bin/../zookeeper-server/src/main/resources/lib/*.jar:/usr/local/softwares/zookeeper/bin/../conf:.:/usr/local/share/jdk1.8.0_11/lib/dt.jar:/usr/local/share/jdk1.8.0_11/lib/tools.jar
+2019-09-04 23:16:50,982 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2019-09-04 23:16:50,982 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2019-09-04 23:16:50,982 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2019-09-04 23:16:50,983 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Linux
+2019-09-04 23:16:50,983 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=amd64
+2019-09-04 23:16:50,983 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=4.19.59-1-MANJARO
+2019-09-04 23:16:50,983 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=root
+2019-09-04 23:16:50,984 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=/root
+2019-09-04 23:16:50,984 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=/home/tomingdom/Coding/Java/learnkafka
+2019-09-04 23:16:50,996 [myid:] - INFO  [main:ZooKeeperServer@836] - tickTime set to 2000
+2019-09-04 23:16:50,997 [myid:] - INFO  [main:ZooKeeperServer@845] - minSessionTimeout set to -1
+2019-09-04 23:16:50,997 [myid:] - INFO  [main:ZooKeeperServer@854] - maxSessionTimeout set to -1
+2019-09-04 23:16:51,014 [myid:] - INFO  [main:ServerCnxnFactory@117] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2019-09-04 23:16:51,019 [myid:] - INFO  [main:NIOServerCnxnFactory@89] - binding to port 0.0.0.0/0.0.0.0:2181
+2019-09-04 23:17:30,139 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@222] - Accepted socket connection from /127.0.0.1:43920
+2019-09-04 23:17:30,153 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:43920
+2019-09-04 23:17:30,155 [myid:] - INFO  [SyncThread:0:FileTxnLog@216] - Creating new log file: log.ce
+2019-09-04 23:17:30,170 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x1000006ba900000 with negotiated timeout 6000 for client /127.0.0.1:43920
+2019-09-04 23:17:30,653 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000006ba900000 type:create cxid:0x1 zxid:0xcf txntype:-1 reqpath:n/a Error Path:/consumers Error:KeeperErrorCode = NodeExists for /consumers
+2019-09-04 23:17:30,684 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000006ba900000 type:create cxid:0x2 zxid:0xd0 txntype:-1 reqpath:n/a Error Path:/brokers/ids Error:KeeperErrorCode = NodeExists for /brokers/ids
+2019-09-04 23:17:30,688 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000006ba900000 type:create cxid:0x3 zxid:0xd1 txntype:-1 reqpath:n/a Error Path:/brokers/topics Error:KeeperErrorCode = NodeExists for /brokers/topics
+2019-09-04 23:17:30,690 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000006ba900000 type:create cxid:0x4 zxid:0xd2 txntype:-1 reqpath:n/a Error Path:/config/changes Error:KeeperErrorCode = NodeExists for /config/changes
+2019-09-04 23:17:30,693 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000006ba900000 type:create cxid:0x5 zxid:0xd3 txntype:-1 reqpath:n/a Error Path:/admin/delete_topics Error:KeeperErrorCode = NodeExists for /admin/delete_topics
+2019-09-04 23:17:30,697 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000006ba900000 type:create cxid:0x6 zxid:0xd4 txntype:-1 reqpath:n/a Error Path:/brokers/seqid Error:KeeperErrorCode = NodeExists for /brokers/seqid
+2019-09-04 23:17:30,700 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000006ba900000 type:create cxid:0x7 zxid:0xd5 txntype:-1 reqpath:n/a Error Path:/isr_change_notification Error:KeeperErrorCode = NodeExists for /isr_change_notification
+2019-09-04 23:17:30,703 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000006ba900000 type:create cxid:0x8 zxid:0xd6 txntype:-1 reqpath:n/a Error Path:/latest_producer_id_block Error:KeeperErrorCode = NodeExists for /latest_producer_id_block
+2019-09-04 23:17:30,706 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000006ba900000 type:create cxid:0x9 zxid:0xd7 txntype:-1 reqpath:n/a Error Path:/log_dir_event_notification Error:KeeperErrorCode = NodeExists for /log_dir_event_notification
+2019-09-04 23:17:30,709 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000006ba900000 type:create cxid:0xa zxid:0xd8 txntype:-1 reqpath:n/a Error Path:/config/topics Error:KeeperErrorCode = NodeExists for /config/topics
+2019-09-04 23:17:30,712 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000006ba900000 type:create cxid:0xb zxid:0xd9 txntype:-1 reqpath:n/a Error Path:/config/clients Error:KeeperErrorCode = NodeExists for /config/clients
+2019-09-04 23:17:30,715 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000006ba900000 type:create cxid:0xc zxid:0xda txntype:-1 reqpath:n/a Error Path:/config/users Error:KeeperErrorCode = NodeExists for /config/users
+2019-09-04 23:17:30,718 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x1000006ba900000 type:create cxid:0xd zxid:0xdb txntype:-1 reqpath:n/a Error Path:/config/brokers Error:KeeperErrorCode = NodeExists for /config/brokers
+2019-09-04 23:17:34,865 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@596] - Got user-level KeeperException when processing sessionid:0x1000006ba900000 type:multi cxid:0x6b zxid:0xdf txntype:-1 reqpath:n/a aborting remaining multi ops. Error Path:/admin/preferred_replica_election Error:KeeperErrorCode = NoNode for /admin/preferred_replica_election
+2019-09-04 23:21:50,266 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@222] - Accepted socket connection from /127.0.0.1:44016
+2019-09-04 23:21:50,272 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:44016
+2019-09-04 23:21:50,275 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x1000006ba900001 with negotiated timeout 30000 for client /127.0.0.1:44016
+2019-09-04 23:21:50,988 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x1000006ba900001
+2019-09-04 23:21:50,991 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:44016 which had sessionid 0x1000006ba900001
+2019-09-05 00:06:47,789 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x1000006ba900000
+2019-09-05 00:06:47,794 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:43920 which had sessionid 0x1000006ba900000

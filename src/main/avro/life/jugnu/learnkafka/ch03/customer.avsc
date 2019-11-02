@@ -1,0 +1,15 @@
+{
+  "namespace": "life.jugnu.learnkafka.ch03.customerSerializer",
+  "type": "record",
+  "name": "Customer",
+  "fields": [
+    {
+      "name": "customerID",
+      "type": "int"
+    },
+    {
+      "name": "customerName",
+      "type": "string"
+    }
+  ]
+}

@@ -19,7 +19,7 @@ class FirstProducer {
 
         // Create producer and send data in format : (topic name , key , value)
         Producer<String,String> pd = new KafkaProducer<>(p);
-        ProducerRecord<String,String> rec = new ProducerRecord<>("firsttopic" ,"key","value");
+        ProducerRecord<String,String> rec = new ProducerRecord<>("firsttopic" ,"key","hey guys");
 
         // Kafka has 3 methods of sending
         // 1) Fire and forget

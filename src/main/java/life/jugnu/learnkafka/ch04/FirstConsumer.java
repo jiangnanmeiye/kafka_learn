@@ -19,10 +19,11 @@ public class FirstConsumer {
         c.subscribe(Collections.singletonList("firsttopic"));
         try {
             while (true) {
-                ConsumerRecords<String, String> rec = c.poll(100);
+                ConsumerRecords<String, String> rec = c.poll(10000);
                 System.out.println("We got record count " + rec.count());
                 for (ConsumerRecord<String, String> r : rec) {
-                    System.out.println(r.value());
+                    System.out.printf("topic = %s, partition = %s, offset = %s, key = %s, value = %s\n",
+                            r.topic(), r.partition(), r.offset(), r.key(), r.value());
                 }
             }
         } catch (Exception e) {
