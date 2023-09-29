@@ -23,7 +23,7 @@
         <kafka.version>2.3.0</kafka.version>
         <kafka.scala.version>2.11</kafka.scala.version>
         <confluent.version>2.0.1</confluent.version>
-        <avro.version>1.8.0</avro.version>
+        <avro.version>1.11.3</avro.version>
 
         <!-- Maven plugins versions-->
         <maven.assembly.plugin.version>2.6</maven.assembly.plugin.version>
